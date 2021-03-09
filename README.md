@@ -5,6 +5,7 @@ Deploy a Node.js server to AWS EC2
 ## Author: Carly Dekock
 
 ### Link to GitHub [repository](https://github.com/carlydekock/cloud-server.git)
+### Link to PR [here](https://github.com/carlydekock/cloud-server/pull/1)
 
 ## Deployed Links
 - GUI deployed server [here](http://testcloudserver-env.eba-tpuz2ds7.us-west-2.elasticbeanstalk.com/)
