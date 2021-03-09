@@ -7,8 +7,8 @@ Deploy a Node.js server to AWS EC2
 ### Link to GitHub [repository](https://github.com/carlydekock/cloud-server.git)
 
 ## Deployed Links
-- GUI deployed server [here](http://cloudserver-env.eba-vfqp2yim.us-east-2.elasticbeanstalk.com/)
-- CLI deployed server here
+- GUI deployed server [here](http://testcloudserver-env.eba-tpuz2ds7.us-west-2.elasticbeanstalk.com/)
+- CLI deployed server [here](http://cloud-server-env.eba-zyxidcat.us-west-2.elasticbeanstalk.com/)
 
 ## Processes
 - Ensure you have AWS account
@@ -24,3 +24,14 @@ Deploy a Node.js server to AWS EC2
 - Select platform: Node.js
 - Select upload your code, and upload the zipped file
 
+### CLI deploy
+- Ensure repo has server setup but has no database
+- PORT is set in .env file
+- In the terminal, run ```eb init```
+- Select all relevant prompts
+- Run the command ```eb create <env-name>```
+- Run the command ```eb deploy```
+
+## Credits and Collaborators
+- Worked at lab table with Jason D, Jason Q, Nick M, and Seid
+- Help from Jacob on GUI deployed server
